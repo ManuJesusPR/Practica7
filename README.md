@@ -1,1 +1,1 @@
-# Pretica7
+# Practica7
