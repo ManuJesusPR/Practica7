@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Practica 7</title>
+    </head>
+    <style>
+        table, th, td{
+            border: 1px solid black;
+     }
+     body{
+         background-color: #A52A2A;
+     }
+    </style>
+    <body>
+        <center><h1>Otros tipos de firewalls<h1/></center>
+        <hr>
+        <font face="Comic Sans MS,arial,verdana">
+        <h5>Los Firewall personales son programas que filtran el tráfico que entra y sale de una computadora. Una vez instalados, el usuario debe definir el nivel de seguridad: permite o deniega el acceso de determinados programas a Internet (de forma temporal o definitiva) y autoriza o no los accesos desde el exterior.</h5></font>
+    <TABLE>
+     <TR>
+      <TD>1. Filtrado de Paquetes</TD>
+      <TD><dl>
+             <dd>Se utilizan Routers con filtros y reglas basadas en políticas de control de acceso. El Router es el encargado de filtrar los paquetes (un Choke) basados en cualquiera de los siguientes criterios:</dt>
+             <dd>a. Protocolos utilizados.</dt>
+             <dd>b. Dirección IP de origen y de destino.</dt>
+             <dd>c. Puerto TCP-UDP de origen y de destino.</dt>
+             <dd>Tienen la ventaja de ser económicos, tienen un alto nivel de desempeño y son transparentes para los usuarios conectados a la red.</dt>
+       </dl></TD>
+     </TR>
+     <TR>
+      <TD>2. Proxy-Gateways de Aplicaciones</TD>
+      <TD><dl>
+             <dd>Para evitar las debilidades asociadas al filtrado de paquetes, los desarrolladores crearon software de aplicación encargados de filtrar las conexiones. Estas aplicaciones son conocidas como Servidores Proxy y la máquina donde se ejecuta recibe el nombre de Gateway de Aplicación o Bastion Host.</dt>
+             <dd>El Proxy, instalado sobre el Nodo Bastión, actúa de intermediario entre el cliente y el servidor real de la aplicación, siendo transparente a ambas partes.</dt>
+       </dl></TD>
+     </TR>
+     <TR>
+      <TD>3. Dual-Homed Host</TD>
+      <TD><dl>
+             <dd>Son dispositivos que están conectados a ambos perímetros (interior y exterior) y no dejan pasar paquetes IP (como sucede en el caso del Filtrado de Paquetes), por lo que se dice que actúan con el "IP-Forwarding desactivado".</dt>
+             <dd>Un usuario interior que desee hacer uso de un servicio exterior, deberá conectarse primero al Firewall, donde el Proxy atenderá su petición, y en función de la configuración impuesta en dicho Firewall, se conectará al servicio exterior solicitado y hará de puente entre éste y el usuario interior.</dt>
+       </dl></TD>
+     </TR>
+     <TR>
+      <TD>4. Screened Host</TD>
+      <TD><dl>
+             <dd>En este caso se combina un Router con un host bastión y el principal nivel de seguridad proviene del filtrado de paquetes. En el bastión, el único sistema accesible desde el exterior, se ejecuta el Proxy de aplicaciones y en el Choke se filtran los paquetes considerados peligrosos y sólo se permiten un número reducido de servicios.</dt>
+       </dl></TD>
+     </TR>
+     <TR>
+      <TD>5. Screened Subnet</TD>
+      <TD><dl>
+             <dd>En este diseño se intenta aislar la máquina más atacada y vulnerable del Firewall, el Nodo Bastión. Para ello se establece una Zona Desmilitarizada (DMZ) de forma tal que sin un intruso accede a esta máquina no consiga el acceso total a la subred protegida.</dt>
+             <dd>En este esquema se utilizan dos Routers: uno exterior y otro interior. El Router exterior tiene la misión de bloquear el tráfico no deseado en ambos sentidos: hacia la red interna y hacia la red externa. El Router interior hace lo mismo con la red interna y la DMZ (zona entre el Router externo y el interno).</dt>
+       </dl></TD>
+     </TR>
+     <TR>
+      <TD>6. Inspección de Paquetes</TD>
+      <TD><dl>
+             <dd>Este tipo de Firewalls se basa en el principio de que cada paquete que circula por la red es inspeccionado, así como también su procedencia y destino. Se aplican desde la capa de Red hasta la de Aplicaciones. Generalmente son instalados cuando se requiere seguridad sensible al contexto y en aplicaciones muy complejas.</dt>
+       </dl></TD>
+     </TR>
+     <TR>
+      <TD>7. Firewalls Personales</TD>
+      <TD><dl>
+             <dd>Estos Firewalls son aplicaciones disponibles para usuarios finales que desean conectarse a una red externa insegura y mantener su computadora a salvo de ataques que puedan ocasionarle desde un simple "cuelgue" o infección de virus hasta la pérdida de toda su información almacenada.</dt>
+       </dl></TD>
+     </TR>
+    </TABLE>
+    <center><a href="SitioWeb .html">Regresar al inicio...</a></center>
+        <hr>
+    <center><h3>¿Preguntas?</h3></center>
+    <center><h5>Si necesitas más información sobre qué es un firewall y cómo funciona, puedes consultarlo con nuestros asesores.</h5></center>
+    <center><h5>Envía un correo electrónico a <a href="http://www.gmail.com/">manuel.perez28@unach.mx</a> para obtener más información sobre el proyecto</h5></center>
+    </body>
+</html>

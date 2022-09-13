@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Practica 7</title>
+    </head>
+    <style>
+        table, th, td{
+            border: 1px solid black;
+     }
+     body{
+         background-color: #A52A2A;
+     }
+    </style>
+    <body>
+        <center><h1>Metodos de filtrado<h1/></center>
+        <hr>
+        <font face="Comic Sans MS,arial,verdana">
+        <h5>Existen varios métodos que se utilizan para filtrar el tráfico de datos, que pueden ser utilizados individualmente o combinados en un equipo firewall: </h5></font>
+    <TABLE>
+     <TR>
+      <TD>Políticas de Firewall</TD>
+      <TD><dl>
+             <dd>Aquí el firewall sólo permite las comunicaciones a la red protegida sobre la base de las peticiones que provienen de los equipos dentro de esa red. Nadie va poder escanear la red, desde el exterior sólo se ve la dirección IP del cortafuegos, no se ven recursos internos dentro de la red. Todos los puertos de enlace entrantes están cerrados y todos los puertos salientes están abiertos. Existe la posibilidad de permitir excepciones.</dt>
+       </dl></TD>
+      <TD><img src="Img/políticas de firewall.jpg" width="%100" heigth="%100"/></TD>
+     </TR>
+     <TR>
+      <TD>Filtrado de Contenido</TD>
+      <TD><dl>
+             <dd>Esta función permite el filtrado de paquetes, examina los paquetes de comunicación que intentan pasar a través del firewall, comparándolos con las reglas. Las reglas determinan cómo se maneja la comunicación. Estas reglas están basadas en la dirección IP de origen de los datos y el puerto a que se destina.</dt>
+             <dd>El filtrado de contenidos permite a los administradores bloquear fácilmente algunos tipos de contenido web sin tener que hacerlo manualmente con cada URL individual. Se bloquean sitios web inapropiados y sitios web de redes sociales de forma rápida y sencilla.</dt>
+       </dl></TD>
+      <TD><img src="Img/filtrado de contenido.jpg" width="200" heigth="400"/></TD>
+     </TR>
+     <TR>
+      <TD>Servicio Anti-Virus de red (AV)</TD>
+      <TD><dl>
+             <dd>En el caso de los firewalls ZyWALL USG se implementa con Karsperky Anti-Virus (AV); es la primera línea de defensa para proteger tu red interna contra ataques que provengan de Internet o enlace WAN.</dt>
+             <dd>Las empresas deberían considerar activar el servicio de AV en el firewall, ya que en los ordenadores y servidores los AV pueden ser fácilmente desactivados o manipulados por los usuarios, creando potenciales riesgos al propio ordenador e incluso a la red.</dt>
+             <dd>El AV en el Gateway Firewall proporciona una capa adicional de defensa contra las amenazas más recientes.</dt>
+       </dl></TD>
+      <TD><img src="Img/servicio.jpg" width="200" heigth="400"/></TD>
+     </TR>
+     <TR>
+      <TD>(AS) Anti-Spam del Firewall</TD>
+      <TD><dl>
+             <dd>Este servicio protege contra el spam, phishing y correos electrónicos cargados de virus.</dt>
+             <dd>La tecnología proviene de la detección de patrón recurrente (RPD). Analiza la capacidad a través de millones de nuevos patrones a diario (24x7x365) para bloquear todos los mensajes infectados en tiempo real. Además, el antispam se aplica a la IP remitente basado en reputación para eliminar más del 80% del correo electrónico no deseado, evita mensajes sospechosos.</dt>
+       </dl></TD>
+      <TD><img src="Img/anti-spam.jpg" width="%100" heigth="%100"/></TD>
+     </TR>
+     <TR>
+      <TD>Servicio de IDP</TD>
+      <TD><dl>
+             <dd>IDP Intrusión Detección y Prevención, permite al administrador controlar aplicaciones específicas conocido como (troyanos y aplicaciones de puerta trasera que pueden infiltrarse en su red interna. IDP utiliza la tecnología de inspección profunda de paquetes DPI (deep packet inspectión ) y puede llegar a soportar más de 8.000 firmas. Esto añade otra capa crítica de seguridad y proporciona al administrador la flexibilidad necesaria para bloquear programas específicos que no están permitidos en la red como el intercambio de archivos P2P o la mensajería instantánea.</dt>
+             <dd>También permite a los administradores identificar, categorizar y controlar más de 3.000 aplicaciones sociales, juegos, aplicaciones productivas, Los administradores pueden priorizar las aplicaciones productivas y bloquear las no productivas evitando el abuso del ancho de banda. Esta necesidad es muy frecuente en los casos de las empresas.</dt>
+       </dl></TD>
+      <TD><img src="Img/servicio de idp.jpg" width="%100" heigth="%100"/></TD>
+     </TR>
+    </TABLE>
+    <center><a href="SitioWeb .html">Regresar al inicio...</a></center>
+        <hr>
+    <center><h3>¿Preguntas?</h3></center>
+    <center><h5>Si necesitas más información sobre qué es un firewall y cómo funciona, puedes consultarlo con nuestros asesores.</h5></center>
+    <center><h5>Envía un correo electrónico a <a href="http://www.gmail.com/">manuel.perez28@unach.mx</a> para obtener más información sobre el proyecto</h5></center>
+    </body>
+</html>

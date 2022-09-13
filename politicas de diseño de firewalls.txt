@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Practica 7</title>
+    </head>
+    <style>
+        table, th, td{
+            border: 1px solid black;
+     }
+     body{
+         background-color: #A52A2A;
+     }
+    </style>
+    <body>
+        <center><h1>Politicas de diseño de firewalls<h1/></center>
+        <hr>
+        <font face="Comic Sans MS,arial,verdana">
+        <h5>Generalmente se plantean algunas preguntas fundamentales que deben ser respondidas en cualquier política de seguridad:</h5></font>
+    <TABLE>
+     <TR>
+      <TD>•¿Qué se debe proteger?</TD>
+      <TD><dl>
+             <dd>Se deberían proteger todos los elementos de la red interna (hardware, software, datos, etc.).</dt>
+       </dl></TD>
+      <TD><img src="Img/que se debe proteger.jpg" width="%100" heigth="%100"/></TD>
+     </TR>
+     <TR>
+      <TD>•¿De quién protegerse?</TD>
+      <TD><dl>
+             <dd>De cualquier intento de acceso no autorizado desde el exterior. Sin embargo, podemos definir niveles de confianza, permitiendo selectivamente el acceso de determinados usuarios externos a determinados servicios o denegando cualquier tipo de acceso a otros.</dt>
+       </dl></TD>
+      <TD><img src="Img/de quien protegerse.jpg" width="%100" heigth="%100"/></TD>
+     </TR>
+     <TR>
+      <TD>•¿Cómo protegerse?</TD>
+      <TD><dl>
+             <dd>Esta es la pregunta más difícil y está orientada a establecer el nivel de monitorización, control y respuesta deseado en la organización. Puede optarse por alguno de los siguientes paradigmas o estrategias:</dt>
+             <dd>a. Paradigmas de seguridad:<br>- Se permite cualquier servicio excepto aquellos expresamente prohibidos.
+                                                - Se prohíbe cualquier servicio excepto aquellos expresamente permitidos</br></dt>
+             <dd>b. Estrategias de segurida:<br>- Paranoica: se controla todo, no se permite nada.
+                                                - Prudente: se controla y se conoce todo lo que sucede.
+                                                - Permisiva: se controla pero se permite demasiado.
+                                                - Promiscua: no se controla (o se hace poco) y se permite todo.</br></dt>
+
+       </dl></TD>
+      <TD><img src="Img/como protegerse.png" width="%100" heigth="%100"/></TD>
+     </TR>
+     <TR>
+      <TD>•¿Cuánto costará?</TD>
+      <TD><dl>
+             <dd>Estimando en función de lo que se desea proteger se debe decidir cuanto es conveniente invertir.</dt>
+       </dl></TD>
+      <TD><img src="Img/cuanto costara.jpg" width="%100" heigth="%100"/></TD>
+     </TR>
+    </TABLE>
+    <center><a href="SitioWeb .html">Regresar al inicio...</a></center>
+        <hr>
+    <center><h3>¿Preguntas?</h3></center>
+    <center><h5>Si necesitas más información sobre qué es un firewall y cómo funciona, puedes consultarlo con nuestros asesores.</h5></center>
+    <center><h5>Envía un correo electrónico a <a href="http://www.gmail.com/">manuel.perez28@unach.mx</a> para obtener más información sobre el proyecto</h5></center>
+    </body>
+</html>

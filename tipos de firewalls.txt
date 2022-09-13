@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Practica 7</title>
+    </head>
+    <style>
+        table, th, td{
+            border: 1px solid black;
+     }
+     body{
+         background-color: #A52A2A;
+     }
+    </style>
+    <body>
+        <center><h1>Tipos de firewalls<h1/></center>
+        <hr>
+        <font face="Comic Sans MS,arial,verdana">
+        <h5>Los Firewall tradicionales son de hardware, es decir, un dispositivo específico instalado en una red para levantar una defensa y proteger a la red del exterior. Son utilizados en entornos profesionales: el administrador de red define una serie de reglas para permitir el acceso y detiene los intentos de conexión no permitidos.
+        </h5></font>
+    <TABLE>
+     <TR>
+      <TD>Firewalls hardware</TD>
+      <TD><dl>
+            <dd>Los firewall de hardware se utilizan más en empresas y grandes corporaciones. Normalmente son dispositivos que se colocan entre el router y la conexión telefónica. Como ventajas, podemos destacar que al ser independientes del PC, no es necesario configurarlos cada vez que reinstalamos el sistema operativo y no consumen recursos del sistema.</dt>
+            <dd>Su mayor inconveniente es el mantenimiento, ya que son difíciles de actualizar y de configurar correctamente.</dt>
+            <dd>Los firewalls hardware pueden ser adquiridos como un producto independiente pero recientemente los firewalls hardware suelen encontrarse integrados en routers de banda ancha y deberían ser considerados una parte importante de cara a la configuración de una red, especialmente cuando se usa una conexión de banda ancha. Los firewalls hardware pueden ser efectivos con muy poca o ninguna configuración previa y pueden proteger todas las máquinas de una red local. La mayoría tienen como mínimo cuatro puertos para conectarse a otras máquinas, pero para redes más grandes existen otras soluciones de negocio.</dt>
+            <dd>Los firewalls hardware usan filtrado de paquetes para examinar la cabecera de un paquete y así determinar su origen y su destino. Esta información se compara con un conjunto de reglas predefinidas o creadas por el usuario que determinan si el paquete tiene que ser redirigido o descartado.</dt>
+            <dd>Como con cualquier otro dispositivo electrónico, un usuario con conocimientos generales sobre informática puede conectar un firewall, ajustar unas cuantas opciones y ponerlo a funcionar. De todas formas, para asegurarse de que un firewall está configurado para una protección y seguridad óptimas, podría ser necesario aprender las características específicas del modelo de firewall instalado, cómo activarlas y cómo probar el firewall para asegurarse de que está protegiendo la red de forma correcta.</dt>
+            <dd>No todos los firewalls son iguales, por lo que es muy importante leer el manual de instrucciones y toda la documentación que viene con el producto. Adicionalmente, la página web del fabricante puede tener también cierta información interesante de cara al usuario primerizo.</dt>
+            <dd>Para probar el nivel de seguridad de un firewall hardware, se pueden usar herramientas de terceros o buscar en Internet un servicio gratuito de prueba de firewalls online. La prueba del firewall es una parte muy importante del mantenimiento, ya que sirve para saber si el firewall está bien configurado y la protección que nos ofrece es óptima.</dt>
+            <dd>Entre los principales fabricantes de firewalls hardware destacan Checkpoint y Cisco.</dt>
+       </dl></TD>
+      <TD><img src="Img/firewalls hardware.jpg" width="%100" heigth="%100"/></TD>
+     </TR>
+     <TR>
+      <TD>Firewalls software</TD>
+      <TD><dl>
+            <dd>Estos programas son los más comunes en los hogares, ya que, a parte de resultar mucho más económicos que el hardware, su instalación y actualización es más sencilla. Eso sí, presentan algunos problemas inherentes a su condición: consumen recursos del PC, algunas veces no se ejecutan correctamente o pueden ocasionar errores de compatibilidad con otro software instalado.</dt>
+            <dd>Actualmente, los sistemas operativos más modernos como Windows XP y Linux integran soluciones básicas de firewall, en algunos casos, como en el software libre, son muy potentes y flexibles, pero requieren un gran conocimiento en redes y puertos necesarios para las aplicaciones. Para no tener problemas, existen una serie de herramientas externas que facilitan este trabajo de protección.</dt>
+            <dd>Para los usuarios “normales”, la mejor opción de firewalls es un firewall software. Los firewalls software se instalan en el ordenador (como cualquier otro programa) y pueden ser configurados de diversas maneras, permitiendo cierto control sobre su funcionalidad y sus características de protección. Los firewalls software protegen el ordenador ante ataques externos que intentan obtener el control de la máquina o conseguir acceso a la misma y, dependiendo del programa de firewall, puede también proporcionar protección contra los virus, troyanos y gusanos más comunes. Muchos firewalls software tienen controles definidos por el usuario para establecer una compartición segura de archivos e impresoras y para bloquear aplicaciones no seguras e impedir que se ejecuten en el sistema. Adicionalmente, los firewalls software pueden incorporar también controles de privacidad, filtrado de webs y mucho más. Lo malo que tiene este tipos de firewalls es que, al contrario de lo que ocurre con los firewalls harware, los firewalls software sólo protegen el ordenador en el que están instalados y no protegen la red entera, así que cada ordenador necesitará tener instalado el firewall software.</dt>
+            <dd>Al igual que ocurre con los firewalls hardware, hay un gran número de firewalls software en el mercado. Debido a que el firewall software debe estar siempre ejecutándose en cada ordenador, debería tenerse en cuenta los recursos que necesita para ejecutarse y también es importante comprobar que no haya ninguna incompatibilidad de cara a la elección del firewall software. Un buen firewall software se ejecutará en segundo plano en el sistema y usará sólo una pequeña parte de los recursos del mismo. Es importante monitorizar el firewall software una vez instalado y descargar e instalar las actualizaciones disponibles periódicamente.</dt>
+            <dd>Las diferencias entre los dos tipos de firewalls son amplias y la mejor protección para una red es utilizar los dos, ya que cada uno ofrece características de seguridad diferentes. Actualizar el firewall y el sistema operativo es esencial para mantener una protección optima, así como comprobar que el firewall está conectado y funcionando correctamente.</dt>
+       </dl></TD>
+      <TD><img src="Img/firewalls software.jpg" width="%100" heigth="%100"/></TD>
+     </TR>
+    </TABLE>
+    <center><a href="SitioWeb .html">Regresar al inicio...</a></center>
+        <hr>
+    <center><h3>¿Preguntas?</h3></center>
+    <center><h5>Si necesitas más información sobre qué es un firewall y cómo funciona, puedes consultarlo con nuestros asesores.</h5></center>
+    <center><h5>Envía un correo electrónico a <a href="http://www.gmail.com/">manuel.perez28@unach.mx</a> para obtener más información sobre el proyecto</h5></center>
+    </body>
+</html>
